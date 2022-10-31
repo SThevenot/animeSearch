@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import Home from "./components/Home"
+import movieDetails from "./components/MovieDetails"
 
 function App() {
+    const [movie, setMovie] = useState(null);
+
     return (
         <>
-        <Home/>
+        <h1>Ghibli</h1>
+        <Home setter={setMovie}/>
         </>
     )
 }
