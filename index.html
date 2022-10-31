@@ -10,7 +10,7 @@
 <body onload="getGhibli()">
     <div class="titleBox">
         <h1>Movie selector</h1> 
-        <select id="selector">
+        <select id="selector" onchange="saveToStorage()">
             <option>Loading ...</option>
             <option>I am a Movie Title...</option>
         </select>

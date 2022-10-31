@@ -1,6 +1,7 @@
 /** @format */
-
+var details = document.getElementById("details");
 var select = document.getElementById("selector");
+var localVar = {};
 
 function getGhibli() {
   var requestUrl = "https://ghibliapi.herokuapp.com/films";
@@ -17,3 +18,18 @@ function getGhibli() {
       }
     });
 }
+
+function saveToStorage() {
+  var movieValue = select.value;
+  localStorage.setItem("movieTitle", movieValue);
+}
+
+function updateSite() {
+  var selectedMovie = localStorage.getItem("movieTitle");
+  console.log(selectedMovie);
+}
+
+//save selected item to local storage
+//grab from local storage when movie is selected
+//grab needed data from api based on movie selected
+//display to screen
