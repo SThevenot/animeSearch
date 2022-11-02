@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useEffect, useState } from "react";
+import "../styles/Home.css"
 
 // import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
@@ -20,16 +21,21 @@ export default function Home({ setter }) {
   }, []);
 
   return (
-    <div className="MovieDetails">
+    <div className="MovieDetails" id="homeDiv">
       <Row>
         {movies.map((movie) => (
-          <Card key={movie.id}>
-            <Link to={`/details/${movie.id}`} onClick={e => setter(movie)}>
-              <Card.Img src={movie.image}></Card.Img>
-            </Link>
-            <h2>{movie.title}</h2>
-            <h3>{movie.release_date}</h3>
-          </Card>
+          <Col xs="12" sm="6" md="4" lg="3" className="p-4" id="columnStyle">
+            <Card key={movie.id} id="cardStyle">
+              <Link
+                to={`/details/${movie.title}`}
+                onClick={(e) => setter(movie)}
+              >
+                <Card.Img src={movie.image} id="cardImgStyle"></Card.Img>
+              </Link>
+              <Card.Title id="movieTitleStyle">{movie.title}</Card.Title>
+              <Card.Text id="movieDateStyle">{movie.release_date}</Card.Text>
+            </Card>
+          </Col>
         ))}
       </Row>
     </div>

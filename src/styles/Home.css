@@ -1,0 +1,48 @@
+/** @format */
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--mainbg);
+  /* border: red 2px solid; */
+}
+
+:root {
+  --mainbg: #4d695d;
+  --cardbg: #83a79d;
+  --cardc: #dae8e5;
+  --mainc: #a1cde5;
+  --subc: #bfdeee;
+}
+
+#homeDiv {
+  background-color: var(--mainbg);
+}
+
+#cardImgStyle {
+    padding: 10px;
+}
+
+#cardStyle {
+  background-color: var(--cardbg);
+  color: var(--cardc);
+  border-radius: 10px !important;
+}
+
+#cardStyle:hover {
+    box-shadow: 5px 3px 3px black;
+}
+
+#movieTitleStyle {
+  background-color: var(--cardbg);
+  border-radius: 10px;
+  padding: 2px;
+  margin-left: 5px;
+
+}
+
+#movieDateStyle {
+  background-color: var(--cardbg);
+  border-radius: 10px;
+  padding: 2px;
+  margin-left: 5px;
+}
