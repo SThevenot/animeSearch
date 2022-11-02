@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Home from "./components/Home";
 import MovieDetails from "./components/MovieDetails";
-import Nav from "./components/Nav";
+import NavTab from "./components/NavTab";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Nav />
+        <NavTab />
         <Routes>
           <Route path="/" element={<Home setter={setMovie}/>}></Route>
           <Route path="/details/:id" element={<MovieDetails movie={movie} />}></Route>

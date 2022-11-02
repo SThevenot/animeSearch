@@ -2,8 +2,6 @@
 
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: var(--mainbg);
-  /* border: red 2px solid; */
 }
 
 :root {
@@ -12,14 +10,15 @@
   --cardc: #dae8e5;
   --mainc: #a1cde5;
   --subc: #bfdeee;
+  --gradient1: linear-gradient(90deg, #83a79d 100%, #dae8e5 40%, #bfdeee 50%);
 }
 
-#homeDiv {
-  background-color: var(--mainbg);
+body {
+  background-color: var(--gradient1) !important;
 }
 
 #cardImgStyle {
-    padding: 10px;
+  padding: 10px;
 }
 
 #cardStyle {
@@ -29,7 +28,7 @@
 }
 
 #cardStyle:hover {
-    box-shadow: 5px 3px 3px black;
+  box-shadow: 5px 3px 3px black;
 }
 
 #movieTitleStyle {
@@ -37,7 +36,6 @@
   border-radius: 10px;
   padding: 2px;
   margin-left: 5px;
-
 }
 
 #movieDateStyle {
