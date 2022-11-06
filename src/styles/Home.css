@@ -2,6 +2,7 @@
 
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 100% !important;
 }
 
 :root {
@@ -14,6 +15,8 @@
 
 #homeDiv {
   background-image: linear-gradient(to top right, var(--gradients));
+  margin-top: -50px;
+  padding-top: 50px;
 }
 
 #cardImgStyle {

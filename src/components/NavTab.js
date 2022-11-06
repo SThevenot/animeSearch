@@ -11,7 +11,7 @@ export default function NavTab() {
     <div>
       <Navbar id="navbar">
         <Container>
-          <Navbar.Brand>Studio Ghibli Movies</Navbar.Brand>
+          <Navbar.Brand id="studioTitle">Studio Ghibli Movies</Navbar.Brand>
           <Nav className="me-auto">
           </Nav>
         </Container>
