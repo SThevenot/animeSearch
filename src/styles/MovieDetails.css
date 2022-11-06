@@ -1,0 +1,19 @@
+#detailsCard {
+width: 100%;
+background-color: var(--cardbg);
+color: var(--cardc);
+padding: 25px;
+}
+
+#detailsImg {
+width: 50%;
+margin: auto;
+}
+
+#detailsTitle {
+
+}
+
+#detailsDate {
+
+}

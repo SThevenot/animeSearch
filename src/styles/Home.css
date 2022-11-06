@@ -10,11 +10,10 @@
   --cardc: #dae8e5;
   --mainc: #a1cde5;
   --subc: #bfdeee;
-  --gradient1: linear-gradient(90deg, #83a79d 100%, #dae8e5 40%, #bfdeee 50%);
-}
+  --gradients: #83a79d, #dae8e5, #bfdeee;}
 
-body {
-  background-color: var(--gradient1) !important;
+#homeDiv {
+  background-image: linear-gradient(to top right, var(--gradients));
 }
 
 #cardImgStyle {
