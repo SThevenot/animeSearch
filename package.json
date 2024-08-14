@@ -38,6 +38,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://sthevenot.github.io/animeSearch/",
   "browserslist": {
     "production": [
       ">0.2%",
