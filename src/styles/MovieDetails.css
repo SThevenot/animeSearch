@@ -2,7 +2,7 @@
 width: 100%;
 background-color: var(--cardbg);
 color: var(--cardc);
-padding: 25px;
+padding: 85px 25px;
 }
 
 #detailsImg {
@@ -11,9 +11,19 @@ margin: auto;
 }
 
 #detailsTitle {
-
+margin: auto;
+padding: 8px;
 }
 
-#detailsDate {
+#detailsOriginalTitle {
+margin: auto;
+padding: 15px;
 
+ }
+
+#movieDetailDiv {
+    background-color: var(--cardbg);
+    margin: 2% 20%;
+    border-radius: 10px;
+    padding: 10px;
 }

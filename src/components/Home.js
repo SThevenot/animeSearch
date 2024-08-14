@@ -15,7 +15,7 @@ export default function Home({ setter }) {
   // ComponentDidMount is used to
   // execute the code
   useEffect(() => {
-    fetch("https://ghibliapi.herokuapp.com/films/")
+    fetch("https://ghibliapi.vercel.app/films")
       .then((r) => r.json())
       .then((r) => setMovies(r));
   }, []);

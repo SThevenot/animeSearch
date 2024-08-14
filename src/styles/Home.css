@@ -6,17 +6,16 @@
 }
 
 :root {
-  --mainbg: #4d695d;
-  --cardbg: #83a79d;
-  --cardc: #dae8e5;
-  --mainc: #a1cde5;
-  --subc: #bfdeee;
-  --gradients: #83a79d, #dae8e5, #bfdeee;}
+  --mainbg: #153448;
+  --cardbg: #3C5B6F;
+  --cardc: #DFD0B8;
+  --mainc: #948979;
+  --subc: #758694;
+  --gradients: #948979,#153448, #DFD0B8;}
 
 #homeDiv {
+  margin-top: 70px;
   background-image: linear-gradient(to top right, var(--gradients));
-  margin-top: -50px;
-  padding-top: 50px;
 }
 
 #cardImgStyle {
@@ -30,7 +29,7 @@
 }
 
 #cardStyle:hover {
-  box-shadow: 5px 3px 3px black;
+  box-shadow: 5px 3px 3px var(--subc);
 }
 
 #movieTitleStyle {

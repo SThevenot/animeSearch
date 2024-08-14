@@ -1,8 +1,21 @@
 #navbar {
-    background-color: var(--subc);
-    border-radius: 10px;
+    background-color: var(--mainc);
+    width: auto;
+    border-radius: 0px 0px 10px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 #studioTitle {
-    color: gray;
+    color: var(--cardc);
+    font-size: xx-large;
+    padding-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#studioTitle:hover {
+    color: var(--cardbg);
+    cursor: pointer;
 }
