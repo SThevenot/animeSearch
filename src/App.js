@@ -14,7 +14,7 @@ function App() {
       <Router>
         <NavTab />
         <Routes>
-          <Route path="/animesearch" element={<Home setter={setMovie}/>}></Route>
+          <Route path="/animesearch/" element={<Home setter={setMovie}/>}></Route>
           <Route path="/details/:id" element={<MovieDetails movie={movie} />}></Route>
         </Routes>
         <Footer/>
