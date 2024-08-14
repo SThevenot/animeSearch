@@ -11,7 +11,7 @@ export default function NavTab({setter}) {
   return (
     <div>
       <Navbar id="navbar">
-          <Link to="https://sthevenot.github.io/animeSearch/"
+          <Link to="/animeSearch/"
         >          
           <Navbar.Brand id="studioTitle">Studio Ghibli Movies</Navbar.Brand>
           </Link>
